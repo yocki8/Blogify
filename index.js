@@ -24,7 +24,7 @@ app.set("view engine", "ejs");
 app.set("views", path.resolve("./views"));
 
 app.use("/",homeRouter);
-app.use("/blogs",blogRouter)
+app.use("/blogs",blogRouter);
 
 app.listen(PORT, () => {
     console.log("Connected to port:" + PORT);
