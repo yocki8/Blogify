@@ -6,8 +6,6 @@ const path = require("path");
 import ReactGA from "react-ga";
 
 
-ReactGA.initialize("G-1CZG95DRBB");
-ReactGA.pageview(window.location.pathname + window.location.search);
 
 const storage = multer.diskStorage({
     destination: function (req, file, cb) {
