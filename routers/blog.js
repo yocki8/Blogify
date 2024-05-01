@@ -3,8 +3,6 @@ const multer = require("multer");
 const Blog = require("../models/blog.js");
 const Comment = require("../models/comment.js");
 const path = require("path");
-import ReactGA from "react-ga";
-
 
 
 const storage = multer.diskStorage({
